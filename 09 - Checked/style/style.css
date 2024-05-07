@@ -2,15 +2,9 @@ body {
     font-family: Arial;
 }
 
-#countlabel {
-    display: block;
-    text-align: center;
-    font-size: 100px;
-}
-
-#buttonContainer {
-    display: block;
-    text-align: center;
+#radio-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .button {
@@ -22,7 +16,8 @@ body {
     border-radius: 4px;
     margin-left: 6px;
     margin-right: 6px;
-    transition: background-color 0.1s;    
+    transition: background-color 0.1s;   
+    max-width: 250px; 
 }
 
 .button:hover {
@@ -38,16 +33,4 @@ body {
     border-width: 1px;
     border-color: black;
     padding: 11px;
-}
-
-#warning {
-    color:red;
-    font-size: 30px;
-    text-align: center;
-}
-
-#allow-minus-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

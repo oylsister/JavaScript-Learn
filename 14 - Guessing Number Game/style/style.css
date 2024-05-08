@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+}
+
+#title {
+    text-align: center;
+}
+
+#result {
+    font-size: 20px;
+    text-align: center;
+}
+
+.button-container {
+    margin-left: 3px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}

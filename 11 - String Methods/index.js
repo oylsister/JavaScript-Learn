@@ -29,3 +29,10 @@ console.log(number);
 
 number = number.replaceAll("-", "");
 console.log(number);
+
+const email = "naphatpromp@gmail.com"
+
+var emailname = email.slice(0, email.indexOf("@"));
+var extension = email.slice(email.indexOf("@") + 1);
+console.log(username);
+console.log(extension);

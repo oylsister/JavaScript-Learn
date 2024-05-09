@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Temperature Conversion</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h3 class="title">Temperature Conversion</h3>
+
+        <input type="radio" id="CtoF" name="unit">
+        <label for="CtoF">Celsius => Fahrenheit</label><br>
+
+        <input type="radio" id="FtoC" name="unit">
+        <label for="FtoC">Fahrenheit => Celsius</label><br><br>
+
+        <input type="number" id="temp-input" value="0"><br><br>
+        <button type="button" onclick="Convert()" class="button">Covert</button>
+        <p id="result">Select a unit</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

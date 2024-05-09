@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    background-color: rgb(218, 218, 218);
+}
+
+.title {
+    color: rgb(0, 110, 255);
+}
+
+.button {
+    background-color: rgb(0, 84, 180);
+    color: white;
+    border-style: none;
+    padding: 6px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: background-color 0.1s;   
+    max-width: 250px; 
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(123, 173, 230);
+}
+
+.button:active {
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 11px;
+}
+
+#temp-input {
+    width: 60px;
+    font-size: 20px;
+}
+
+.main-container {
+    background-color: white;
+    text-align: center;
+    justify-self: center;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    width: 300px;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
+    padding-bottom: 12px;
+    border-radius: 15px;
+}

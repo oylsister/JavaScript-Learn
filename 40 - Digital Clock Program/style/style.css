@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    font-family: monospace;
+    font-size: 120px;
+    background-image: url(../picture/BF1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#bg {
+}
+
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock {
+    z-index: 12;
+    font-size: 120px;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}

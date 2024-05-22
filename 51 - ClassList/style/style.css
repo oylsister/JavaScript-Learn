@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+}
+
+#myButtons {
+    color: white;
+    border-style: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: background-color 0.1s;    
+}
+
+.enabled {
+    background-color: rgb(0, 84, 180);
+    color: white;
+}
+
+.hover {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgb(123, 173, 230);
+}
+
+.disabled {
+    background-color: blueviolet;
+}

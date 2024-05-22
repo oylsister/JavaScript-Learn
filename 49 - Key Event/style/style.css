@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+}
+
+#box {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
